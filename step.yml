@@ -8,9 +8,9 @@
 # - Bitrise CLI guides: http://devcenter.bitrise.io/bitrise-cli/
 
 title: |-
-  Jira Issue Field Update
+  Jira Issue Field Add Or Update
 summary: |
-  Update field value for all issues from pull request merge commits. It uses the commit message to determine which issues should be commented.
+  Adds or updates field value for all issues from pull request merge commits. It uses the commit message to determine which issues should be commented.
 description: |
   This steps scans last merge commits or last commit if it is not a merge commit, and gathers all Jira issues names found in commit messages.
   Once the tasks are found it uses the credentials provided to use Jira API and update each found issue field with specified value.
